@@ -1,0 +1,23 @@
+$padding-horizontal: 250px;
+
+.menu{
+    padding: 20px $padding-horizontal ;
+}
+
+.header{
+    background-image: url('../../assets/cardapio/header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    
+    align-items: center;
+    height: 300px;
+    padding: 20px  $padding-horizontal;
+    &__text {
+
+        color: white;
+        font-size: 5rem;
+        min-width: 400px;
+        width: 40%;
+    }
+}
